@@ -641,19 +641,15 @@ section {
   top: 0;
   margin-top: -19%;
 }
-.service-prices:hover span {
-  visibility: visible;
-  opacity: 1;
-  transform: translate(0px, 0px);
-}
+
 .service-prices .icon-style {
   background-color: #39a0d0;
   transform: translate(10px, 10px);
 }
 .service-prices span {
   position: absolute;
-  visibility: hidden;
-  opacity: 0;
+  visibility: show;
+  opacity: 1;
   top: 0;
   font-size: 22px;
   height: 4.375rem;
@@ -663,14 +659,15 @@ section {
   text-align: center;
   transition: all 0.3s linear;
 }
-.service-prices:hover .sec-img .sec-radius img {
-  border-color: #39a0d0;
-}
+
 .service-prices .sec-img .sec-radius img {
   border-radius: 50%;
   overflow: hidden;
   border: 8px solid #fff;
   transition: all 0.3s linear;
+}
+.with-border .sec-img .sec-radius img {
+  border-color: #39a0d0;
 }
 /*====Table Area===*/
 .appointment-box {
@@ -5485,4 +5482,8 @@ button.scrollTopStick.active {
 
 .transparent-bg {
   background: transparent !important;
+}
+
+.menu-responsive {
+  display: none;
 }

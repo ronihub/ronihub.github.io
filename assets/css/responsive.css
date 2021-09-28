@@ -457,6 +457,9 @@
 }
 
 @media (max-width: 992px) {
+  .menu-responsive {
+    display: flex;
+  }
   .product-img img {
     width: 100%;
   }
