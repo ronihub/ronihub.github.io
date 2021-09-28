@@ -1088,6 +1088,10 @@ section {
 .footer-area {
   background-color: #101111;
 }
+.footer-img {
+  height: 100px;
+  padding-top: 10px;
+}
 .wiget-content {
   margin-top: 1.875rem;
 }
@@ -5457,7 +5461,7 @@ button.scrollTopStick {
   height: 50px;
   border-radius: 100%;
   border: 0;
-  background: #d98430;
+  background: #64c7ea;
   position: fixed;
   bottom: 50px;
   right: 50px;

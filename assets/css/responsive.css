@@ -1938,6 +1938,11 @@
   .tab-content .tab-pane {
     padding-top: 0;
   }
+  .footer-img {
+    height: 70px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
   .img-height img {
     height: 293px;
   }
